@@ -1,61 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="">
-        <meta property="og:type" content="">
-        <meta property="og:url" content="">
-        <meta property="og:image" content="">
 
-        <title>Web Template</title>
-        <link rel="icon" href="assets/images/favicon.png">
+<head>
+    <title>The Last Greeting</title>
+    <!--Required meta tag-->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!--Fontawesome cdn	-->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/normalize.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-        <!-- Normalize -->
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <!-- CSS Files -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-    </head>
-    <body> 
+<body>
 
-        
-        <!--=====================  Start Header Area  ====================-->
-        <header class="header_area">
+    <!--Start main Area-->
+    <section class="main-area">
+        <div class="sidebar-area">
+            <a href="#" class="sidebar_close"><i class="fas fa-times"></i></a>
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.svg" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active" href="#"><img src="assets/images/icon/overview.svg" alt="">Overview</a></li>
+                    <li><a href="#"><img src="assets/images/icon/ticket.svg" alt="">Greetings</a></li>
+                    <li><a href="#"><img src="assets/images/icon/more-user.svg" alt="">Recipients</a></li>
+                    <li><a href="#"><img src="assets/images/icon/user.svg" alt="">Deadlines</a></li>
+                    <li><a href="#"><img src="assets/images/icon/book.svg" alt="">Videos</a></li> 
+                    <li  class="mt-custom"><a href="#"><img src="assets/images/icon/setting.svg" alt="">Settings</a></li>
+                    <li><a href="#"><img src="assets/images/icon/batch.svg" alt="">Subscription</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content-area">
+            <!-- header area  -->
+            <div class="header-area">
+                <div class="header-title">
+                    <a href="#" class="bars_icon"><i class="fas fa-bars"></i></a>
+                    <h3>Overview</h3>
+                </div>
+                <div class="header-user">
+                    <ul>
+                        <li><a href="#" class="search_btn"><img src="assets/images/icon/search.svg" alt=""></a>
+                            <div class="search-field-box">
+                                <button type="submit" ><span class="searc_icon"><img src="assets/images/icon/search.svg" alt=""></span></button>
+                                <input type="search" name="focus" placeholder="Search" id="search-input" value="">
+                            </div>
+                        </li>
+                        <li class="mr-border"><a href="#" class="noti_btn"><img src="assets/images/icon/noti.svg" alt=""></a>
+                            <div class="noti-toggle">
+                                <ul>
+                                    <li><h3>Notification Title</h3>
+                                        <p>About an hour ago</p></li>
+                                    <li><h3>Notification Title</h3>
+                                        <p>About an hour ago</p></li>
+                                    <li><h3>Notification Title</h3>
+                                        <p>About an hour ago</p></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="header-user-img">
+                        <a href="#"><span>Martin Bonde</span> <img src="assets/images/user.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- card area  -->
+            <div class="card-area">
+                <div class="single-card">
+                    <p>Recipients</p>
+                    <h2>14</h2>
+                </div>
+                <div class="single-card">
+                    <p>Video Greetings</p>
+                    <h2>6</h2>
+                </div>
+                <div class="single-card">
+                    <p>Text Greetings</p>
+                    <h2>56</h2>
+                </div>
+                <div class="single-card">
+                    <p>Next Deadline</p>
+                    <h2>21 Days</h2>
+                </div>
+            </div>
+            <!-- account area  -->
+            <div class="account-info-area">
+                <div class="receipt-box">
+                    <div class="account-card-title">
+                        <h3>Recipients</h3>
+                        <a href="#">View all details</a>
+                    </div>
+                    <ul class="receipt-data">
+                        <li><p>martin@gmail.com</p><span>1 Video</span></li>
+                        <li><p>lisa@gmail.com</p><span>1 mail, 1 Video</span></li>
+                        <li><p>peter.petersen@hotmail.com</p><span>5 mails</span></li>
+                        <li><p>beatiful.wife@outlook.com</p><span>55 mails, 4 videos</span></li>
+                    </ul>
+                </div>
+                <div class="account-status">
+                    <div class="account-card-title">
+                        <h3>Account Status</h3> 
+                    </div>
+                    <div class="account-check">
+                        <ul class="receipt-data">
+                            <li><div class="round">
+                                <input type="checkbox" checked id="create_account" />
+                                <label for="create_account"></label>
+                              </div><label for="create_account">Create account</label></li>
+                            <li><div class="round">
+                                <input type="checkbox" checked id="create_greeting" />
+                                <label for="create_greeting"></label>
+                              </div><label for="create_greeting">Create Greeting</label></li>
+                            <li><div class="round">
+                                <input type="checkbox" id="receipts" />
+                                <label for="receipts"></label>
+                              </div><label for="receipts">Create Recipients</label></li>
+                            <li><div class="round">
+                                <input type="checkbox" id="create_deadline" />
+                                <label for="create_deadline"></label>
+                              </div><label for="create_deadline">Create Deadline Schedule</label></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- video area  -->
+            <div class="video-area">
+                <div class="account-card-title">
+                    <h3>Recipients</h3>
+                    <a href="#">View all details</a>
+                </div>
+                <div class="video-box">
+                    <div class="video">
+                        <!-- <img src="assets/images/video.png" alt=""> --> 
 
-        </header>
-        <!--=====================  End Header Area  ====================-->
-
-        <main class="main_area"> 
-            <!--=====================  Start Banner Area  ====================-->
-            <section class="banner_area">
-
-            </section>
-            <!--=====================  End Banner Area  ====================--> 
-        </main>
-                
-        <!--=====================  Start Header Area  ====================-->
-        <footer class="footer_area">
-
-        </footer>
-        <!--=====================  End Header Area  ====================-->
- 
+                          <video src="assets/images/video.mp4" controls loop muted ></video> 
+                    </div>
+                    <div class="video">
+                        <!-- <img src="assets/images/video.png" alt=""> -->
+                        <video src="assets/images/video.mp4" controls loop muted ></video> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End main Area-->
 
 
-        <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
-        <!-- jQuery -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Modernizr -->
-        <script src="assets/js/modernizr-3.11.2.min.js"></script>
-        <!-- Custom JS (Handed)-->
-        <script src="assets/js/scripts.js"></script>
-    </body>
+
+
+
+
+    <!-- JS File -->
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script> 
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
 </html>

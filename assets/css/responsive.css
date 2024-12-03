@@ -1,19 +1,77 @@
-@media all and (max-width: 1199px){
-
+@media all and (max-width:1100px){
+    .sidebar-area {
+        position: absolute;
+        transition: 0.3s;
+        left: -100%;
+        z-index: 99;
+    }
+    .main-content-area {
+        flex: 0 0 100%; 
+    }
+    .bars_icon,
+    .sidebar_close { 
+        display: block;
+    }
 }
-
-@media all and (max-width: 991px){
-	
+@media all and (max-width:991px){
+    .single-card {  
+        flex: 0 0 48%; 
+        margin-bottom: 18px;
+    } 
+    .search-field-box { 
+        left: -172px; 
+    }
 }
-
-@media all and (max-width: 767px){
-	
+@media all and (max-width:767px){
+    .single-card p { 
+        font-size: 16px; 
+        margin-bottom: 0;
+    }
+    .table tbody tr, .table thead tr {
+        border-bottom: 1.5px solid #DFE0EB;
+        display: flex;
+        align-items: center;
+    }
+    .single-card h2 { 
+        font-size: 24px; 
+    }
+    .account-status, .receipt-box {
+        flex: 0 0 100%; 
+        margin-bottom: 18px;
+    }
+    .table-area {
+        width: 100%;
+        overflow: scroll;
+    }
+    .table tbody tr td {
+        padding: 8px 13px;
+    }
+    .video {
+        flex: 0 0 100%;
+    }
+    .video { 
+        margin-bottom: 18px;
+    }
 }
-
-@media all and (max-width: 575px){
-	
+@media all and (max-width:576px){
+    .header-user-img a span {
+        display: none;
+    }
+    .account-card-title { 
+        padding: 20px 32px;
+    }
+    .single-card { 
+        padding: 16px 0; 
+    }
+    .video video {
+        width: 298px;
+    }
 }
-
-@media all and (max-width: 450px){
-	
+@media all and (max-width:412px){
+    .login-main {
+        background: #fff; 
+    }
+    .login-area { 
+        border: 1px solid #fff; 
+    } 
 }

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Greeting</title>
+    <!--Required meta tag-->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <!--Fontawesome cdn	-->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/normalize.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!--Start main Area-->
+    <section class="main-area">
+        <div class="sidebar-area"> 
+            <a href="#" class="sidebar_close"><i class="fas fa-times"></i></a>
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.svg" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active" href="#"><img src="assets/images/icon/overview.svg" alt="">Overview</a></li>
+                    <li><a href="#"><img src="assets/images/icon/ticket.svg" alt="">Greetings</a></li>
+                    <li><a href="#"><img src="assets/images/icon/more-user.svg" alt="">Recipients</a></li>
+                    <li><a href="#"><img src="assets/images/icon/user.svg" alt="">Deadlines</a></li>
+                    <li><a href="#"><img src="assets/images/icon/book.svg" alt="">Videos</a></li> 
+                    <li  class="mt-custom"><a href="#"><img src="assets/images/icon/setting.svg" alt="">Settings</a></li>
+                    <li><a href="#"><img src="assets/images/icon/batch.svg" alt="">Subscription</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content-area">
+            <!-- header area  -->
+            <div class="header-area">
+                <div class="header-title">
+                    <a href="#" class="bars_icon"><i class="fas fa-bars"></i></a>
+                    <h3>Overview</h3>
+                </div>
+                <div class="header-user">
+                    <ul>
+                        <li><a href="#"  class="search_btn"><img src="assets/images/icon/search.svg" alt=""></a>
+                            <div class="search-field-box">
+                                <button  type="submit"><span class="searc_icon"><img src="assets/images/icon/search.svg" alt=""></span></button>
+                                <input type="search" name="focus" placeholder="Search" id="search-input" value="">
+                            </div>
+                        </li>
+                        <li class="mr-border"><a href="#" class="noti_btn"><img src="assets/images/icon/noti.svg" alt=""></a>
+                            <div class="noti-toggle">
+                                <ul>
+                                    <li><h3>Notification Title</h3>
+                                        <p>About an hour ago</p></li>
+                                    <li><h3>Notification Title</h3>
+                                        <p>About an hour ago</p></li>
+                                    <li><h3>Notification Title</h3>
+                                        <p>About an hour ago</p></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="header-user-img">
+                        <a href="#"><span>Martin Bonde</span> <img src="assets/images/user.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- data table  -->
+            <div class="card">
+                <div class="account-card-title">
+                    <h3>Account Status</h3> 
+                    <div class="table-filter">
+                        <button class="filter-item">
+                            <img src="assets/images/sort.png" alt="">
+                            <p>Sort</p>
+                        </button>
+                        <button class="filter-item">
+                            <img src="assets/images/Vector.png" alt="">
+                            <p>Filter</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="table-area">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Greeting details</th>
+                                <th>Recipient</th>
+                                <th>Day</th>
+                                <th>Format</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconVideo.svg" alt=""><div class="table-f">
+                                        <p>Video greeting for Tom</p><span>Updated 1 day ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Tom Cruise</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+2 days</p><span>6:30 PM</span>
+                                </div></td>
+                                <td><span class="table-badge">MP4</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconVideo.svg" alt=""><div class="table-f">
+                                        <p>Video greeting for Matt</p><span>Updated 11 day ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Matt Damon</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+7 days</p><span>8:00 AM</span>
+                                </div></td>
+                                <td><span class="table-badge yellow-badge">MOV</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconMail.svg" alt=""><div class="table-f">
+                                        <p>Thanks to family</p><span>Updated 2 months ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Bryan Randall, Sandra <br> Bullock, Jesse James</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+14 days</p><span>7:30 PM</span>
+                                </div></td>
+                                <td><span class="table-badge red-badge">TXT</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconVideo.svg" alt=""><div class="table-f">
+                                        <p>You are my Dark Knight</p><span>Updated 2 days ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Christian Bale</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+14 days</p><span>5:00 PM</span>
+                                </div></td>
+                                <td><span class="table-badge red-badge">TXT</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconMail.svg" alt=""><div class="table-f">
+                                        <p>The forgotten love</p><span>Updated 2 days ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Henry Cavil</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+7 days</p><span>4:00 PM</span>
+                                </div></td>
+                                <td><span class="table-badge">MP4</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconMail.svg" alt=""><div class="table-f">
+                                        <p>Always your Darkest Nightmare</p><span>Updated 3 days ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Christian Bale</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+1 month</p><span>2:00 PM</span>
+                                </div></td>
+                                <td><span class="table-badge red-badge">TXT</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconMail.svg" alt=""><div class="table-f">
+                                        <p>Overall information for my company</p><span>Updated 1 year ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Sam Smith</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+3 days</p><span>11:30 AM</span>
+                                </div></td>
+                                <td><span class="table-badge red-badge">TXT</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><div class="d-flex">
+                                    <img src="assets/images/datatable/IconMail.svg" alt=""><div class="table-f">
+                                        <p>Unfreeze your funny bone, Steve!</p><span>Updated 6 hours ago</span>
+                                    </div>
+                                </div></td>
+                                <td><p>Steve Rogers</p></td>
+                                <td><div class="table-f text-center">
+                                    <p>+2 months</p><span>1:00 PM</span>
+                                </div></td>
+                                <td><span class="table-badge red-badge">TXT</span></td>
+                                <td><a href="#"><img src="assets/images/dot.png" alt=""></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="table-arrow-area">
+                    <p>Rows per page: 8</p>
+                    <p>1-8 of 1240</p>
+                    <div class="table-arrow">
+                        <a href="#"><img src="assets/images/datatable/arrow-left.svg" alt=""></a>
+                        <a href="#"><img src="assets/images/datatable/arrow-right.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+    <!--End main Area-->
+
+
+
+
+
+
+    <!-- JS File -->
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script> 
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
