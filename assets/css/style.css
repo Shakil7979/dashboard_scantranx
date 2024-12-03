@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta+Bold); 
+
 /* Default CSS */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -19,7 +21,7 @@ time, mark, audio, span, video {
    background: transparent;
 }
 body{
-  font-family: 'Mulish', sans-serif;
+	font-family: 'TT Norms Pro';
 }
 table {
    border-collapse: collapse;
@@ -792,3 +794,11 @@ a:hover{
 	width: 100%;
 	height: 100%;
 }
+
+
+
+
+/* 
+    font-family: "Recoleta-Bold"; 
+
+ */
