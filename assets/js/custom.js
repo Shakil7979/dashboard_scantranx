@@ -24,3 +24,16 @@ $(document).on('click','.noti_btn',function(){
 $(document).on('click','.search_btn',function(){
     $('.search-field-box').slideToggle();
 });
+
+
+$(document).on('click', '.job_edit_delete_btn', function (e) {
+  e.stopPropagation(); 
+   
+  $('.job_edit_delete_box').not($(this).siblings('.job_edit_delete_box')).slideUp();
+ 
+  $(this).siblings('.job_edit_delete_box').slideToggle();
+});
+ 
+$(document).on('click', function () {
+  $('.job_edit_delete_box').slideUp();
+});
