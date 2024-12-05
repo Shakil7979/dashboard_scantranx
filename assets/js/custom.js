@@ -37,3 +37,16 @@ $(document).on('click', '.job_edit_delete_btn', function (e) {
 $(document).on('click', function () {
   $('.job_edit_delete_box').slideUp();
 });
+
+
+$(document).on('click','.close_modal, .modal_close_overlay', function(){
+  $('.modal_main_create_job').hide();
+  $('.modal_close_overlay').hide();  
+  return false;
+})
+
+$(document).on('click','.add_new_btn', function(){
+  $('.modal_close_overlay').show(); 
+  $('.modal_main_create_job').show(); 
+  return false;
+})
