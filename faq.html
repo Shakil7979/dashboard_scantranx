@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FAQ</title>
+    <!--Required meta tag-->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content=""> 
+    <link rel="icon" href="assets/images/fav.png">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/normalize.css">  
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!--Start main Area-->
+    <section class="main-area">
+        <div class="sidebar-area">
+            <a href="#" class="sidebar_close"><i class="fas fa-times"></i></a>
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.svg" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html"><img src="assets/images/sidebar/Search.png" alt="">Jobs</a></li>
+                    <li><a href="blog-list.html"><img src="assets/images/sidebar/Paper.png " alt="">Blog</a></li>
+                    <li><a class="active" href="faq.html"><img src="assets/images/sidebar/Danger Circle.png" alt="">FAQ's</a></li>
+                    <li><a href="#"><img src="assets/images/sidebar/Star.png" alt="">Testimonial</a></li> 
+                    <li><a href="#"><img src="assets/images/sidebar/Call.png" alt="">Contact form</a></li>
+                    <li><a href="#"><img src="assets/images/sidebar/Profile.png" alt="">Reseller</a></li>
+                    <li><a href="#"><img src="assets/images/sidebar/Download.png" alt="">E-book download</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content-area">
+            <!-- header area  -->
+            <div class="header-area">
+                <div class="header-title">
+                    <a href="#" class="bars_icon"><i class="fas fa-bars"></i></a>
+                    <div class="header_text_box"> 
+                        <h3>Good Morning, Aqib!</h3>
+                        <p>Welcome back</p>
+                    </div>
+                </div>
+                <div class="header-user"> 
+                    <div class="header-user-img">
+                        <a href="#"><img src="assets/images/user.png" alt=""> <i class="fa-solid fa-angle-down"></i> </a>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="main_content_box">
+                <!-- add here is your content  -->
+
+                <div class="content_header">
+                    <h3>Manage FAQ's</h3>
+                    <a href="#" class="btn_1 add_new_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Add New <i class="fa-solid fa-plus"></i></a>
+                </div>
+
+                <div class="blog_details_area"> 
+                    <div class="faq_area">
+                        <!-- single faq  -->
+                        <div class="faq_single">
+                            <h3>What is POS and e-commerce management software?</h3>
+                            <p>POS (Point of Sale) and e-commerce management software help businesses manage sales, track inventory, handle transactions, and manage online orders all in one place. It streamlines operations for both physical stores and online businesses.</p>
+                            <div class="job_right_btn"> 
+                                <button class="job_edit_delete_btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                <div class="job_edit_delete_box">
+                                    <ul>
+                                        <li><button><img src="assets/images/job/Edit.png" alt=""><span>Edit</span></button></li>
+                                        <li><button><img src="assets/images/job/Delete.png" alt=""><span>Delete</span></button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- single faq  -->
+                        <div class="faq_single">
+                            <h3>What is POS and e-commerce management software?</h3>
+                            <p>POS (Point of Sale) and e-commerce management software help businesses manage sales, track inventory, handle transactions, and manage online orders all in one place. It streamlines operations for both physical stores and online businesses.</p>
+                            <div class="job_right_btn"> 
+                                <button class="job_edit_delete_btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                                <div class="job_edit_delete_box">
+                                    <ul>
+                                        <li><button><img src="assets/images/job/Edit.png" alt=""><span>Edit</span></button></li>
+                                        <li><button><img src="assets/images/job/Delete.png" alt=""><span>Delete</span></button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End main Area-->  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Add FAQ</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="modal_form">
+                <form action="#">
+                    <div class="login_form">  
+                        <div class="form_group">
+                            <input type="text" placeholder="FAQ title">
+                            <i class="fa-regular fa-user"></i> 
+                        </div>  
+                        <div class="form_group">
+                            <textarea placeholder="FAQ Answer" name="" id=""></textarea>
+                        </div>  
+                        <div class="btn_login">
+                            <button type="submit" class="btn_2 free_demo_btn">Add FAQ <i class="fa-solid fa-arrow-right"></i></button>  
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+    <!-- JS File -->
+    <script src="assets/js/modernizr-3.11.2.min.js"> 
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/jquery.min.js"></script> 
+    <script src="assets/js/bootstrap.min.js"></script> 
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

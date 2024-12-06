@@ -131,8 +131,7 @@ a:hover{
 /* header css  */
 
 .main-content-area {
-	flex: 0 0 82%;
-	background: #F7F8FC;
+	flex: 0 0 82%; 
 	height: 100vh; 
 	box-sizing: border-box;
 	overflow-y: scroll;
@@ -369,6 +368,7 @@ a:hover{
 
 .btn_1:hover {
 	opacity: 0.83;
+	color: #FFFFFF;
 }
 
 .job_serach_single {
@@ -437,6 +437,7 @@ a:hover{
 	border: none;
 	font-size: 30px;
 	cursor: pointer;
+	font-size: 24px;
 }
 
 .job_right_btn {
@@ -475,7 +476,8 @@ a:hover{
 	border-radius: 10px;
 	position: absolute;
 	right: 0;
-	width: 88px;
+	width: 120px;
+	border: 1px solid #eee;
 }
 
 
@@ -591,7 +593,7 @@ a:hover{
 .form_group input {
 	width: 100%;
 	padding: 14px 16px 14px 46px;
-	border: 2px solid #052145;
+	border: 2px solid #05214582;
 	border-radius: 10px;
 	font-family: 'TT Norms Pro';
 	font-style: normal;
@@ -608,7 +610,7 @@ a:hover{
 	height: 136px;
 	resize: none; 
 	padding: 14px 16px 14px 16px;
-	border: 2px solid #052145;
+	border: 2px solid #05214582;
 	border-radius: 10px;
 	font-family: 'TT Norms Pro';
 	font-style: normal;
@@ -867,7 +869,209 @@ a:hover{
 }
  
 
+.modal-dialog {
+	max-width: 747px;
+}
 
+.modal-title {
+	font-family: 'Recoleta-Bold';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #052145;
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal-header{
+	padding: 20px 30px;
+}
+.modal-body { 
+	padding: 10px 30px;
+}
+
+.blog_single_img a {
+	background: #0091FF;
+	padding: 5px 14px;
+	display: inline-block;
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.blog_single_img {
+	position: relative;
+}
+
+.blog_single_img img {
+	width: 100%;
+}
+
+.blog_single_img .job_right_btn { 
+	top: 20px;
+	right: 20px;
+}
+
+.blog_single_img .job_right_btn > button {
+	background: #fff;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	font-size: 21px;
+}
+
+.blog_info{
+	margin-top: 14px;
+}
+
+.blog_info span { 
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #052145; 
+}
+
+h3 { 
+	font-family: 'Recoleta-Bold';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #052145; 
+	margin: 12px 0 8px 0;
+}
+
+p { 
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #052145; 
+}
+
+.blog_details_area{
+	margin-top: 20px;
+}
+
+.file-upload-wrapper {
+	position: relative;
+	width: 100%; 
+	margin: 0 auto;
+}
+
+.file-upload-box {
+	position: relative;
+	padding: 60px 0;
+	text-align: center;
+	border: 2px dashed #dee2e6;
+	border-radius: 8px;
+	background-color: #E6F4FF94;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	width: 100%;
+}
+
+.file-list {
+	margin-top: 1.5rem;
+}
+
+.file-upload-input {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.upload-content {
+	position: relative;
+	z-index: 0;
+}
+
+.upload-content h5 {
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 180%;
+	text-align: center;
+	color: #052145;
+}
+
+.faq_single {
+	position: relative;
+	margin-bottom: 18px;
+}
+
+.faq_single {
+	position: relative;
+	padding: 20px;
+	background: #fff;
+	border-radius: 15px;
+	border: 1px solid #eee;
+}
+
+.faq_single p {
+	max-width: 1128px;
+	width: 100%;
+	height: 60px;
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #052145; 
+}
+
+.single_customer {
+	padding: 30px 25px;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	position: relative;
+}
+
+.single_customer_img {
+	text-align: center;
+}
+
+.single_customer_img img {
+	margin: 0 auto;
+	width: 120px !important;
+	border-radius: 100%;
+}
+
+.customer_content p {
+	text-align: center;
+	color: #052145;
+	margin: 20px 0;
+}
+
+.customer_name h5 {
+	font-family: 'Recoleta-Bold';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #052145;
+	margin-bottom: 4px;
+}
 
 
 /* 
