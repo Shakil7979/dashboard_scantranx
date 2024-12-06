@@ -514,6 +514,9 @@ a:hover{
 	height: auto;
 	z-index: 99999;
 	top: 70px; 
+	height: 500px;
+	overflow-y: scroll;
+	scrollbar-width: none;
 }
 
 .form_group.text_area_create_job textarea {
@@ -862,9 +865,7 @@ a:hover{
 	border: none;
 	font-size: 22px;
 }
-
-
-
+ 
 
 
 
