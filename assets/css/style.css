@@ -1073,6 +1073,163 @@ p {
 	margin-bottom: 4px;
 }
 
+.contact_form_table{
+	margin-top: 20px;
+}
+
+.contact_form_table thead tr th { 
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: #052145; 
+}
+
+.contact_form_table tbody tr td { 
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #052145;  
+}
+
+.contact_form_table button{
+	border: none;
+}
+
+.contact_form_table thead th {
+	background: #F6F5F5;
+	padding: 10px 10px;
+}
+
+.contact_form_table table {
+	width: 100%;
+}
+
+.contact_form_table tbody tr td {
+	padding: 10px 10px;
+	border-bottom: 1px solid #ddd; 
+}
+
+.contact_form_table tbody tr td:first-child{
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
+.contact_form_table tbody {
+	border: 1px solid #ddd;
+}
+
+.contact_letest select {
+	padding: 12px 20px;
+	border: 1px solid #ddd; 
+	background: transparent;
+	border-radius: 10px;
+}
+
+.content_info a ,
+.content_info h4 { 
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 180%;
+	color: #09151B; 
+	margin-bottom: 6px;
+}
+
+.content_info p { 
+	font-family: 'TT Norms Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 180%;
+	color: #818181; 
+	margin-bottom: 26px;
+}
+
+
+.modal-dialog.sk_contact_modal  {
+	max-width: 586px;
+}
+
+.content_info p button {
+	background: transparent;
+	border: none;
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+.login_area{
+	position: relative;
+}
+
+
+.login_bg_left{
+	height: 100vh;
+	background-color: #052145;
+}
+
+.login_area_content{
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+	bottom: 0;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.login_left img {
+	width: 100%;
+	max-width: 586px;
+	margin: 0 auto;
+}
+
+.login_left {
+	text-align: center;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.login_form {
+	width: 100%;
+	max-width: 572px;
+	margin: 0 auto;
+}
+
+
+.login_bg_right { 
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.eye_password {
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	background: transparent;
+	border: none;
+	font-size: 23px;
+}
+
+.login_form h3 { 
+	font-family: 'Recoleta-Bold';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	color: #052145; 
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
 
 /* 
     font-family: "Recoleta-Bold"; 
