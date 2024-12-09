@@ -1197,8 +1197,7 @@ p {
 
 .login_bg_right
 .login_form {
-	width: 100%;
-	max-width: 572px;
+	width: 80%; 
 	margin: 0 auto;
 }
 
